@@ -1,0 +1,13 @@
+cabal-version:      2.4
+name:               haskell-module-dumper
+version:            0.1.0.0
+author:             Hiroki Tokunaga
+maintainer:         tokusan441@gmail.com
+
+executable haskell-module-dumper
+    main-is:          Main.hs
+    build-depends:    base
+                    , ghc-lib-parser
+                    , ghc-lib-parser-ex
+    hs-source-dirs:   app
+    default-language: Haskell2010
