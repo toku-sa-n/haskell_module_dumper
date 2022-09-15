@@ -1,0 +1,12 @@
+resolver: lts-19.23
+
+packages: 
+- .
+
+extra-deps:
+- ghc-lib-parser-9.2.3.20220527
+
+flags:
+  ghc-lib-parser-ex:
+    auto: false
+    no-ghc-lib: false
