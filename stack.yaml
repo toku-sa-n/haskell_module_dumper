@@ -6,6 +6,7 @@ packages:
 extra-deps:
 - ghc-lib-parser-9.2.3.20220527
 
+# See https://github.com/shayne-fletcher/ghc-lib-parser-ex/issues/106.
 flags:
   ghc-lib-parser-ex:
     auto: false
